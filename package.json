@@ -1,0 +1,25 @@
+{
+  "name": "chemistry-live-backend",
+  "version": "1.0.0",
+  "description": "Backend services, Supabase migrations, and shared contracts for Chemistry Live quiz platform",
+  "main": "shared/index.ts",
+  "types": "shared/index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "chemistry",
+    "quiz",
+    "kahoot",
+    "supabase",
+    "realtime",
+    "typescript"
+  ],
+  "author": "Chemistry Live Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "zod": "^3.23.8"
+  }
+}
